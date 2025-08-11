@@ -29,6 +29,9 @@ def main(csv_path, output_dir):
     for _, row in tqdm(df.iterrows(), total=len(df), desc="Downloading videos"):
         collector = str(row['collector_name'])
         video_name = str(row['video_name'])
+        # Force .mp4 extension:
+        base_name, ext = os.path.splitext(video_name)
+        video_name = base_name + '.mp4'
         url = row['download_link']
         collector_folder = os.path.join(output_dir, collector)
         os.makedirs(collector_folder, exist_ok=True)
@@ -39,7 +42,8 @@ def main(csv_path, output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download videos from CSV download_link column.")
-    parser.add_argument('--csv', type=str, required=True, help='Path to the CSV file (with download_link, video_name, collector_name columns)')
-    parser.add_argument('--output', type=str, required=True, help='Output folder to save downloaded videos')
+    parser.add_argument('--csv', type=str, default='data/static_videos.csv', help='Path to the CSV file (with download_link, video_name, collector_name columns)')
+    parser.add_argument('--output', type=str, default='data/static-videos', help='Output folder to save downloaded videos')
     args = parser.parse_args()
     main(args.csv, args.output)
+

@@ -1,0 +1,10 @@
+{
+  "/Users/aleksadianka/Desktop/CCNY/SideWALK/algorithms/legacy_sidewalk_data_labelbox/data/continuous-videos/Christian Barbosa/2022-10-27_9-20-21-9260_None.MOV": {
+    "status": "invalid",
+    "reason": "no sounds at the beginning"
+  },
+  "/Users/aleksadianka/Desktop/CCNY/SideWALK/algorithms/legacy_sidewalk_data_labelbox/data/continuous-videos/Christian Barbosa/2022-11-28_12-33-23-8250_None.MOV": {
+    "status": "invalid",
+    "reason": "static video"
+  }
+}
