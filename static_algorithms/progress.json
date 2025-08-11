@@ -1,3 +1,16 @@
 {
-
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-01-59-3450_Subway+grate.mp4": {
+    "status": "done",
+    "labels": [
+      "gravel",
+      "test"
+    ],
+    "start": 0,
+    "end": 933,
+    "start_sec": 0.0,
+    "end_sec": 31.1,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "subway_grate",
+    "duration": "31.14"
+  }
 }
