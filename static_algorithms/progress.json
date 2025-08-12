@@ -1,3 +1,108 @@
 {
-
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-01-59-3450_Subway+grate.mp4": {
+    "status": "done",
+    "labels": [
+      "gravel",
+      "test"
+    ],
+    "start": 0,
+    "end": 933,
+    "start_sec": 0.0,
+    "end_sec": 31.1,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "subway_grate",
+    "duration": "31.14"
+  },
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-20-22-4230_Manhole.mp4": {
+    "status": "done",
+    "labels": [
+      "concrete",
+      "monolithic",
+      "expansion_joint"
+    ],
+    "start": 0,
+    "end": 982,
+    "start_sec": 0.0,
+    "end_sec": 32.733333333333334,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "manhole",
+    "duration": "32.77"
+  },
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-26-20-3290_Dirt.mp4": {
+    "status": "done",
+    "labels": [
+      "asphalt",
+      "cracked_uneven"
+    ],
+    "start": 0,
+    "end": 785,
+    "start_sec": 0.0,
+    "end_sec": 32.708333333333336,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "dirt",
+    "duration": "32.8"
+  },
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-29-09-9300_Concrete.mp4": {
+    "status": "done",
+    "labels": [
+      "concrete",
+      "monolithic",
+      "expansion_joint"
+    ],
+    "start": 0,
+    "end": 990,
+    "start_sec": 0.0,
+    "end_sec": 33.0,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "concrete",
+    "duration": "33.04"
+  },
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-32-27-8440_Subway+grate.mp4": {
+    "status": "done",
+    "labels": "[`concrete`, `test`, `expansion_joint`]",
+    "start": 0,
+    "end": 950,
+    "start_sec": 0.0,
+    "end_sec": 31.83646112600536,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "subway_grate",
+    "duration": "31.87"
+  },
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-38-41-8530_Asphalt.mp4": {
+    "status": "done",
+    "labels": "[`concrete`, `test`, `expansion_joint`]",
+    "start": 0,
+    "end": 219,
+    "start_sec": 0.0,
+    "end_sec": 7.334226389819157,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "asphalt",
+    "duration": "7.37"
+  },
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-41-01-3170_Manhole.mp4": {
+    "status": "done",
+    "labels": "[`concrete`, `1`, `expansion_joint`]",
+    "start": 0,
+    "end": 1012,
+    "start_sec": 0.0,
+    "end_sec": 33.733333333333334,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "manhole",
+    "duration": "33.8"
+  },
+  "/data/static-videos/Dilshod Ochilov/2022-10-27_10-43-08-9970_concret+tactile.mp4": {
+    "status": "done",
+    "labels": [
+      "concrete",
+      "2",
+      "expansion_joint"
+    ],
+    "start": 0,
+    "end": 1170,
+    "start_sec": 0.0,
+    "end_sec": 39.0,
+    "collector_name": "Dilshod Ochilov",
+    "material_from_video_name": "concret_tactile",
+    "duration": "39.04"
+  }
 }
